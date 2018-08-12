@@ -12,5 +12,7 @@ object Demo {
     import MyImplicitTypeConversion.str2int
     val max = math.max("1",2)
     println(max)
+
+    import scala.collection.immutable
   }
 }
