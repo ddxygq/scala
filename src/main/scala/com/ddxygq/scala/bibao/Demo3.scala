@@ -1,7 +1,7 @@
 package com.ddxygq.scala.bibao
 
 /**
-  * （参数类型） => 参数类型
+  * (参数类型) => 参数类型
   *
   * Created by 26015 on 2018/4/29.
   */

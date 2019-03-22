@@ -1,5 +1,6 @@
-import org.apache.spark.SparkContext
+import org.apache.avro.SchemaBuilder.ArrayBuilder
 
+import scala.collection.mutable.ArrayBuffer
 import scala.util.control.Breaks
 
 var a = 0
@@ -33,5 +34,20 @@ val height = 1.9d
 val name2 = "keguang"
 println(s"$name2 is $height meters tall")
 
+
+def add(x:Int)(y:Int) = x +y
+
+add(1)(1)
+
+
+val b = add(1)_
+
+b(1)
+
+
+
+val ab = ArrayBuffer[Int]()
+ab += 1
+ab += (2,3,4)
 
 
